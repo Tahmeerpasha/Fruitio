@@ -1,0 +1,227 @@
+/* Container
+.container {
+  display: flex;
+  flex-wrap: wrap;
+} */
+body{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+    background-color:  linear-gradient(135deg, #71b7e6, #9b59b6);
+  
+  }
+  .deletemovie{
+      text-align: center;
+  }
+  .details{
+      text-align: center;   
+  }
+  .select{
+      padding: 10px;
+    border-radius: 10px;
+    width: 470px;
+    flex: 3;
+    box-shadow: 2px 2px 8px #ccc;
+    margin: 10px;
+  }
+  h4{
+      text-align: center;
+  }
+  .input-box{
+  text-align: center;
+  }
+  .genre{
+      text-align: center;
+  
+  }
+  .table{
+      text-align: center;
+      margin: auto;
+      border: #006699;
+  
+  }
+  .gender{
+      text-align: center;
+  }
+  .language{
+      text-align: center;
+  }
+  .image{
+      text-align: center;
+  }
+  .submit{
+      text-align: center;
+  }
+  
+  h1{
+    /* background-color: #51ea10; */
+    opacity: 90%;
+    height: 50px;
+    font: size 80%;
+    text-align: center;
+   text-decoration-color: black;
+  
+  }
+  .table{
+      text-align: center;
+      padding: 0%;
+      margin-left: 15%;
+  }
+  /* Add Movie section */
+  #add-movie {
+    background-color: #f2f2f2;
+    padding: 50px;
+    border-radius: 10px;
+    flex: 1;
+    box-shadow: 2px 2px 8px #ccc;
+    margin-right: 50px;
+    text-align: center;
+    
+  }
+  
+  /* Delete Movie section */
+  #delete-movie {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1;
+    box-shadow: 2px 2px 8px #ccc;
+    margin-top: 30px;
+  }
+  
+  /* Modify Movie Details section */
+  #modify-details {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1;
+    box-shadow: 2px 2px 8px #ccc;
+    margin-left: 20px;
+  }
+  
+  /* Movie list section */
+  #movie-list {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1;
+    box-shadow: 2px 2px 8px #ccc;
+    margin-top: 30px;
+  }
+  
+  /* Buttons */
+  input[type="submit"] {
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    padding: 12px 20px;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 20px;
+    align-items: center;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #006699;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 1200px) {
+    .container {
+      flex-wrap:wrap;
+      justify-content:center;
+    }
+    #add-movie, #modify-details {
+      flex: 1 0 100%;
+      margin: 10px 0;
+    }
+  }
+  /* Add Movie section  */
+  #add-movie {
+    background: linear-gradient(to right, #0099ff, #00cc99);
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1;
+    box-shadow: 2px 2px 8px #ccc;
+    margin-right: 20px;
+    text-align:center;
+  }
+  #add-movie h4{
+      color:white;
+      font-size:50px;
+      text-shadow: 2px 2px 8px #ccc;
+  }
+  
+  /* Delete Movie section */
+  #delete-movie {
+    background: linear-gradient(to right, #0099ff, #00cc99);
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1;
+    box-shadow: 2px 2px 8px #ccc;
+    margin-top: 30px;
+    text-align:center;
+  }
+  #delete-movie h4{
+      color:white;
+      font-size:24px;
+      text-shadow: 2px 2px 8px #ccc;
+  }
+  
+  /* Modify Movie Details section */
+  #modify-details {
+    background: linear-gradient(to right, #0099ff, #00cc99);
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1;
+    box-shadow: 2px 2px 8px #ccc;
+    margin-left: 20px;
+    text-align:center;
+  }
+  #modify-details h4{
+      color:white;
+      font-size:24px;
+      text-shadow: 2px 2px 8px #ccc;
+  }
+  
+  /* Movie list section */
+  #movie-list {
+    background: linear-gradient(to right, #0099ff, #00cc99);
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1;
+    box-shadow: 2px 2px 8px #ccc;
+    margin-top: 30px;
+    text-align:center;
+  }
+  #movie-list h4{
+    color:white;
+    font: size 30px;
+    text-shadow: 2px 2px 8px #ccc;
+  }
+  
+  /* Input fields */
+  .input-box input[type="text"]{
+    border-radius: 25px;
+    padding: 12px 20px;
+    font-size: 16px;
+    width: 30%;
+    margin:10px;
+    align-items:baseline;
+  }
+  
+  /* Buttons */
+  input[type="submit"] {
+  background: linear-gradient(to right, #0099ff, #00cc99);
+  color: white;
+  cursor: pointer;
+  padding: 12px 20px;
+  border-radius: 25px;
+  text-align: center;
+  margin-top: 20px;
+  width:10%;
+  }
+  
+  input[type="submit"]:hover {
+  background: linear-gradient(to right, #00cc99, #0099ff);
+  }
