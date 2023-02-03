@@ -1,6 +1,6 @@
 # Fruitio
-The movie recommendation for dbms mini project
-Fruitio is a movie recommendation system that stores detailed information about films, 
+The movie recommendation system for dbms mini project.
+ Fruitio is a movie recommendation system that stores detailed information about films, 
 including the name, ID, actor name, director name, year of release, language of the movie, genre, 
 poster, and rating. The system has two user interfaces; one for the admin and the other for the 
 user. The admin interface allows for the management of movie information, including the 
